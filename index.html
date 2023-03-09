@@ -14,53 +14,54 @@
 
 <body>
   <div class="main-container">
-    <section class="blue">
-      <h2>Your Result</h2>
-      <div class="circle">
-        <h1 class="heading">76</h1>
-        <p class="para">of 100</p>
-      </div>
-      <div class="result">
-        <h1 class="heading">Great</h1>
-        <p class="para">You have scored higher then 25% of people who have given this exam.</p>
-      </div>
-    </section>
-    <section class="white">
-      <h2>Summary</h2>
-      <form class="health-form ">
-        <div class="h-btn" style="background-color: #ff000014;">
-          <div class="svg-holder reaction-bar">
-            <img src="./assets/images/icon-reaction.svg" alt="">
-            <p>Reaction</p>
-          </div>
-          <p class="para"><span class="f-score">80</span>/100</p>
+    <div class="container">
+      <section class="result">
+        <h2>Your Result</h2>
+        <div class="circle">
+          <h1 class="heading">76</h1>
+          <p class="para">of 100</p>
         </div>
-        <div class="h-btn" style="background-color: rgba(255, 255, 0, 0.164);">
-          <div class="svg-holder memory-bar">
-            <img src="./assets/images/icon-memory.svg" alt="">
-            <p>Memory</p>
+        <div class="info">
+          <h1 class="heading">Great</h1>
+          <p class="para">You have scored higher then 25% of people who have given this exam.</p>
+        </div>
+      </section>
+      <section class="summary">
+        <h2 class="title">Summary</h2>
+        <div class="rows">
+          <div class="row" style="background-color: #ff000014;">
+            <div class="svg-holder reaction-bar">
+              <img src="./assets/images/icon-reaction.svg" alt="icon">
+              <p>Reaction</p>
+            </div>
+            <p class="para"><b>80</b>/100</p>
           </div>
-          <p class="para"><span class="f-score">80</span>/100</p>
+          <div class="row" style="background-color: rgba(255, 255, 0, 0.164);">
+            <div class="svg-holder memory-bar">
+              <img src="./assets/images/icon-memory.svg" alt="icon">
+              <p>Memory</p>
+            </div>
+            <p class="para"><b>80</b>/100</p>
 
-        </div>
-        <div class="h-btn" style="background-color: rgba(0, 128, 0, 0.103);">
-          <div class="svg-holder verbal-bar">
-            <img src="./assets/images/icon-verbal.svg" alt="">
-            <p>Verbal</p>
           </div>
-          <p class="para"><span class="f-score">80</span>/100</p>
-        </div>
-        <div class="h-btn" style="background-color: rgba(0, 0, 255, 0.066);">
-          <div class="svg-holder visual-bar">
-            <img src="./assets/images/icon-visual.svg" alt="">
-            <p>Visual</p>
+          <div class="row" style="background-color: rgba(0, 128, 0, 0.103);">
+            <div class="svg-holder verbal-bar">
+              <img src="./assets/images/icon-verbal.svg" alt="icon">
+              <p>Verbal</p>
+            </div>
+            <p class="para"><b>80</b>/100</p>
           </div>
-          <p class="para"><span class="f-score">80</span>/100</p>
-
+          <div class="row" style="background-color: rgba(0, 0, 255, 0.066);">
+            <div class="svg-holder visual-bar">
+              <img src="./assets/images/icon-visual.svg" alt="icon">
+              <p>Visual</p>
+            </div>
+            <p class="para"><b>80</b>/100</p>
+          </div>
         </div>
-      </form>
-      <button class="btn">Continue</button>
-    </section>
+        <button class="btn">Continue</button>
+      </section>
+    </div>
   </div>
 </body>
 
